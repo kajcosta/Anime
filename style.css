@@ -1,54 +1,28 @@
- /*max-width: 40%;
- height:180px;
-    width:300px;
-.nav{
-    background-color: rgba(0, 0, 0, 0.235);
-    max-width: 1280px;
-  
-    display: ;
-    justify-content: space-between;
-    font-size: 18px;
-    padding-block: 16px;
-    list-style: none;
-    position: fixed;
-}
-li{
-    list-style: none;
-}
-.menu ul li {
-    display: inline-block;
-
-  }
-  
-  .menu ul li a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-.logo{
-    height: 3rem;
-    width: 3rem;
-}*/
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:0px;
-    padding:0px;
-   background-color: rgb(209, 210, 210);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 210, 210);
 }
-.grid{ 
+
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;   
-   gap: 20px;
-   padding-left: 100px;
-   padding-right: 100px;
-   text-align: center;
-} 
+    gap: 20px;
+    padding: 0 100px;
+    text-align: center;
+}
 
 .nav {
-    background-color: #0808082e;
-    color:#ffffff2e;
-    
+    background-color: #0808083b;
+    color: #ffffff2e;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .logo {
     float: left;
@@ -68,25 +42,23 @@ body{
 .menu {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #868484c0;
     min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .menu li {
-    color: white;
+    color: rgba(255, 255, 255, 0.33);
     padding: 12px 16px;
-    text-decoration: none;
+    list-style: none;
     display: block;
 }
 
 .menu li:hover {
     background-color: #ddd;
-    color: black;
+   
 }
 
-img{ 
+img { 
     display: block;
     max-width: 50%;
     height: auto;
@@ -94,8 +66,9 @@ img{
     padding-top: 5px;
     border-radius: 17px;
 }
-#Haikyuu,#Horimiya,#MHA,#RK,#TR,#SxF{
-    background-color: rgba(129, 129, 129, 0.915);
+
+#Haikyuu, #Horimiya, #MHA, #RK, #TR, #SxF {
+    background-color: rgba(129, 129, 129, 0.994);
     color: black;
     border-radius: 8px;
 }
